@@ -6,4 +6,9 @@
 
 interface MovieInterface
 {
+    public function getId();
+    public function setId($id);
+
+    public function getTitle();
+    public function setTitle($title);
 }
